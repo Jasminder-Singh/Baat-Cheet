@@ -1,0 +1,18 @@
+.like {
+    animation-name: liked;
+    animation-duration: 0.2s;
+    transform: scale(1);
+    visibility: hidden;
+
+}
+
+@keyframes liked {
+    0% {
+        transform: scale(1);
+        visibility: visible;
+    }
+    100% {
+        transform: scale(1.5);
+        visibility: hidden;
+    }
+}
